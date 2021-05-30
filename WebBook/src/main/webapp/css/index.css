@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+}
+
+.base_line {
+	width: 1400px;
+	margin: 10px auto;
+}
+
+.layer {
+	/*position: absolute;*/
+	position: relative
+
+}

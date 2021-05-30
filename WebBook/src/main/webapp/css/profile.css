@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, STXihei, "华文细黑", Tahoma, Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial, Serif, "fangzhengziti",sans-serif;
+}
+
+@font-face {
+    font-family: 'fangzhengziti';
+    src: url('../font/FZZJ-HGXSJW.TTF');
+}
+
+.panel {
+    width: 1300px;
+    height: 800px;
+    margin: 30px auto;
+    border: solid 1px white;
+}
+
+.register_panel {
+    width: 700px;
+    height: 670px;
+    margin: 40px 10px 50px 297px;
+    box-shadow: 0 0 10px #C1C1C1;
+    border-radius: 6px 6px 6px 6px;
+    border: solid 1px white;
+    border-top: solid 5px #58a0ff;
+    display: inline-block;
+    float: left;
+}
+
+
+.register_tips {
+    width: 280px;
+    height: 500px;
+    margin: 40px 4px;
+    display: inline-block;
+}
+
+.register_title {
+    letter-spacing: 10px;
+    font-size: 65px;
+    font-weight: 500;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    line-height: 100px;
+    margin: 35px auto;
+    font-family: serif;
+}
+
+.form_box {
+    width: 660px;
+    height: 500px;
+    margin: 45px auto;
+}
+
+.register_table {
+    border: none;
+    outline: none;
+    margin-left: 30px;
+}
+
+.textSize {
+    width: 500px;
+    height: calc(2.25rem + .25rem);
+    outline: none;
+    margin: 5px auto;
+    border: 1px solid #ced4da;
+    color: #495057;
+    padding: .375rem .75rem;
+    border-radius: .25em;
+    font-size: 1em;
+    transition: box-shadow 0.5s;
+}
+
+.textSize:focus {
+    box-shadow: 0 0 5px #58a0ff;
+}
+
+.pText {
+    height: calc(2.25rem + .25rem);
+    margin: 5px auto;
+    font-size: 0.9em;
+    color: #F55C5C;
+    text-align: center;
+}
+
+.register1_button {
+    height: 40px;
+    width: 70px;
+    outline: none;
+    color: white;
+    background-color: #58a0ff;
+    box-shadow: 0 0 5px #58a0ff;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px;
+    margin-right: 30px;
+}
+
+.register2_button {
+    height: 40px;
+    width: 70px;
+    outline: none;
+    color: white;
+    background-color: #F55C5C;
+    box-shadow: 0 0 5px #F55C5C;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px;
+    margin-left: 30px;
+}
+
+.register_select {
+    text-align: center;
+    font-size: 17px;
+    height: 40px;
+    width: 70px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px #D1D1D1;
+}
+
+.register_radio {
+    text-align: center;
+    font-size: 17px;
+    /*height: 40px;*/
+    /*width: 70px;*/
+    outline: none;
+    border: none;
+    /*box-shadow: 0 0 10px #D1D1D1;*/
+}
+
+.button_list {
+    height: 60px;
+    width: 440px;
+    margin: 5px auto;
+}
+
+.register3_button {
+    height: 40px;
+    width: 70px;
+    outline: none;
+    color: #585858;
+    background-color: white;
+    box-shadow: 0 0 5px #F55C5C;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px;
+    margin-right: 30px;
+}
+

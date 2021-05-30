@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Spring MVC-5.2.3.RELEASE" type="spring-mvc">
+    <properties version="5.2.3.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-5.2.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-web-5.2.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../DOWNLOAD/commons-dbcp-1.4-bin/commons-dbcp-1.4/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../DOWNLOAD/commons-pool-1.6-bin/commons-pool-1.6/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../DOWNLOAD/mysql-connector-java-5.1.5/mysql-connector-java-5.1.5/mysql-connector-java-5.1.5-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../DOWNLOAD/commons-io-2.8.0-bin/commons-io-2.8.0/commons-io-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../DOWNLOAD/commons-fileupload-1.4-bin/commons-fileupload-1.4-bin/commons-fileupload-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

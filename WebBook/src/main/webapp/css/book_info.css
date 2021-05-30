@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+}
+
+.content_panel {
+    width: 1250px;
+    height: 700px;
+    box-shadow: 0 0 10px #F1F1F1;
+    border-radius: 10px;
+    border: solid 1px white;
+    margin: 50px auto;
+}
+
+.inside_panel {
+    width: 1220px;
+    height: 650px;
+    margin: 25px auto;
+    border: solid 1px white;
+}
+
+.panel_img_box {
+    margin: 55px 43px;
+    width: 450px;
+    height: 500px;
+    box-shadow: 0px 0px 10px #4890ff;
+    border: solid 1px white;
+    display: inline-block;
+    float: left;
+}
+
+.panel_img {
+    /*max-width: 450px;*/
+    /*min-width: 400px;*/
+    width: 400px;
+    display: block;
+    margin: 40px auto;
+    transition: width 0.5s;
+}
+
+.panel_img:hover {
+    margin: 20px auto;
+    width: 440px;
+}
+
+.panel_info_box {
+    width: 600px;
+    height: 600px;
+    margin: 25px 40px;
+    box-shadow: 0 0 10px #F1F1F1;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.tb_tr {
+    width: 550px;
+}
+
+.tb_td_title {
+    width: 110px;
+    height: 30px;
+    text-align: center;
+}
+
+.tb_td_value {
+    text-align: center;
+}
+
+.tb_title {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 20px 20px 20px 30px;
+}
+
+.select_number {
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px #4890ff;
+    font-size: 17px;
+}
+
+.option_number {
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.order_button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    border: none;
+    transition: transform 0.5s;
+    box-shadow: 0 0 10px #4890ff;
+}
+
+.order_button:hover {
+    transform: scale(1.05, 1.05);
+
+}
+
+.score_panel {
+    display: inline-block;
+    width: 140px;
+    height: 150px;
+    margin-bottom: 280px;
+    vertical-align: top;
+    font-weight: 600;
+    font-size: 20px;
+}
+

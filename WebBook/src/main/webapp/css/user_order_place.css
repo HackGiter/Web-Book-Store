@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, STXihei, "华文细黑", Tahoma, Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial, Serif, "fangzhengziti",sans-serif;
+}
+
+
+.main_table {
+    width: 900px;
+    border-radius: 10px;
+    border-top: solid 5px #58a0ff;
+    box-shadow: 0 0 10px #E7E7E7;
+    margin: 100px auto;
+}
+
+.main_title {
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 40px;
+}
+
+.form_table {
+    width: 800px;
+    margin: 15px auto;
+    box-shadow: 0px 0px 10px #E7E7E7;
+    border-radius: 15px;
+    border: solid 1px #FEFEFE;
+}
+
+.form_title {
+    width: 800px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.form_self {
+    width: 800px;
+    font-size: 18px;
+}
+
+.table_self {
+    text-align: center;
+    margin: 15px 100px;
+}
+
+.line {
+    height: 27px;
+}
+
+.item {
+    width: 180px;
+    /*overflow: hidden;*/
+}
+
+.tail_title {
+    margin: 30px auto;
+    font-size: 21px;
+}
+
+.tail {
+    height: 50px;
+}
+
+
+

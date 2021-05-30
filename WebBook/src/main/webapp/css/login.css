@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, STXihei, "华文细黑", Tahoma, Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial, Serif, "fangzhengziti",sans-serif;
+}
+
+@font-face {
+    font-family: 'fangzhengziti';
+    src: url('../font/FZZJ-HGXSJW.TTF');
+}
+
+.panel {
+    width: 1100px;
+    height: 600px;
+    margin: 80px auto;
+    border: solid 1px white;
+}
+
+.login_panel {
+    width: 700px;
+    height: 500px;
+    margin: 40px 10px 50px 197px;
+    box-shadow: 0 0 10px #C1C1C1;
+    border-radius: 6px 6px 6px 6px;
+    border: solid 1px white;
+    border-top: solid 5px #58a0ff;
+    display: inline-block;
+}
+
+.login_tips {
+    width: 180px;
+    height: 500px;
+    margin: 40px 4px;
+    display: inline-block;
+}
+
+.login_title {
+    letter-spacing: 10px;
+    font-size: 65px;
+    font-weight: 500;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    line-height: 100px;
+    margin: 35px auto;
+    font-family: serif;
+}
+
+.form_box {
+    width: 660px;
+    height: 200px;
+    margin: 65px auto;
+}
+
+.login_user {
+    width: 500px;
+    height: calc(2.25rem + .25rem);
+    outline: none;
+    margin: 5px auto;
+    border: 1px solid #ced4da;
+    color: #495057;
+    padding: .375rem .75rem;
+    border-radius: .25em;
+    font-size: 1em;
+    transition: box-shadow 0.5s;
+}
+
+.input_box {
+    width: 650px;
+    height: 60px;
+    border: solid 1px white;
+    margin: 3px auto;
+    text-align: center;
+}
+
+.login_user:focus {
+    box-shadow: 0 0 5px #58a0ff;
+}
+
+.login_password {
+    width: 500px;
+    height: calc(2.25rem + .25rem);
+    outline: none;
+    margin: 5px auto;
+    border: 1px solid #ced4da;
+    color: #495057;
+    padding: .375rem .75rem;
+    border-radius: .25em;
+    font-size: 1em;
+    transition: box-shadow 0.5s;
+}
+
+.login_password:focus {
+    box-shadow: 0 0 5px #58a0ff;
+}
+
+.button_box {
+    width: 500px;
+    height: 45px;
+    margin: 3px auto;
+    text-align: center;
+}
+
+.register_button {
+    height: 40px;
+    width: 70px;
+    outline: none;
+    color: #383838;
+    background-color: transparent;
+    box-shadow: 0 0 5px #E1E1E1;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 1px;
+}
+
+.login_button {
+    height: 40px;
+    width: 70px;
+    outline: none;
+    color: white;
+    background-color: #58a0ff;
+    box-shadow: 0 0 5px #58a0ff;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px;
+}
+
+

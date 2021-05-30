@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, STXihei, "华文细黑", Tahoma, Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial, Serif, "fangzhengziti",sans-serif;
+
+}
+
+.cart_content {
+    margin: 100px auto;
+    width: 900px;
+    box-shadow: 0px 0px 10px #4890ff;
+    border: solid 1px white;
+
+}
+
+.cart_title {
+    height: 100px;
+    width: 800px;
+    margin: 20px auto;
+    font-size: 50px;
+    /*font-weight: 600;*/
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 15px;
+}
+
+.cart_line {
+    height: 1px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #68a8ff;
+    box-shadow: 0px 0px 5px #4890ff;
+}
+
+.cart_main_content {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.cart_item {
+    width: 770px;
+    height: 220px;
+    margin: 10px auto;
+}
+
+.cart_item_img_box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.item_img {
+    width: 190px;
+    display: block;
+    margin: 10px auto;
+}
+
+.cart_item_info {
+    width: 400px;
+    height: 150px;
+    margin: 25px 10px;
+    display: inline-block;
+    float: left;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.text_item_1 {
+    height: 35px;
+    margin: 5px 30px;
+    /*text-align: center;*/
+    /*line-height: 65px;*/
+    font-size: 17px;
+    letter-spacing: 0;
+}
+
+.text_item {
+    height: 35px;
+    margin: 5px 30px;
+    /*text-align: center;*/
+    /*line-height: 65px;*/
+    font-size: 17px;
+    letter-spacing: 0;
+}
+
+.cart_product_info {
+    width: 140px;
+    height: 150px;
+    margin: 25px 5px;
+    display: inline-block;
+}
+
+.wrap_select {
+    height: 50px;
+}
+
+.number_select {
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 0px 0px 5px #4890ff;
+    display: inline-block;
+    float: left;
+    /*margin: 0 20px;*/
+}
+
+.cancel_one {
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 0px 0px 5px #F55C5C;
+    display: inline-block;
+    background-color: white;
+    margin: 0 20px;
+}
+
+.price_title {
+    height: 80px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.send_class {
+    width: 80px;
+    height: 40px;
+    box-shadow: 0px 0px 10px #4890ff;
+    outline: none;
+    border: none;
+    transition: transform 0.5s;
+    margin: 20px 50px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.send_class:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 0px 10px #F55C5C;
+}
+
+
+
+
+
+
+
